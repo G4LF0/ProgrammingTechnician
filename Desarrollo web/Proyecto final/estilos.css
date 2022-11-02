@@ -1,0 +1,72 @@
+.ancho
+{
+	width: 80%; /* El ancho que use el 80% de las dimensiones de la pnatalla*/
+	height: 70px; /*Se define que el alto tenga una dimension de 70px*/
+	/*background: red;*/
+	margin: auto; /*Se define que el margen sea automatico*/
+}
+.logo
+{
+	width: 30%;
+	height: 70px;
+	/*background: blue;*/
+	float: left;/*Definimos en que posicion va a estar*/
+	padding-top: 20px;/*Definimos el tope hacia abajo(10px)*/
+	box-sizing: border-box; /*Forzamos a que solo ocupe el ancho del contenedor(en este caso los 70px)*/
+}
+* /*Quitamos la bolita en que ordena los textos asi como tambien los margenes*/
+{
+	margin: 0; /*Hacemos que los textos en la lista ordenada no tengan ningun margen*/
+	padding: 0; /*Quitamos la bolita(reducimos su tamaño a 0)*/
+}
+header
+{
+	width: 100%;
+	background: rgba(0,0,0, 0.8);/*Le asignamos un color en formato "RGB" y le agregamosel alfa "a" para poder usar la transparencia*/
+	height: 70px;
+	position: fixed; /*Hacemos que el contenedor se quede fijo en su pocision*/
+	z-index: 10;/*Trabajo en capas*/
+}
+nav
+{
+	width: 70%;
+	height: 70px;
+	/*background: olive;*/
+	float: left ; /*Definimos en que posicion va a estar*/
+	text-align: right; /*Definimos la alineacion del texto hacia la derecha*/
+	padding-top: 24px; /*Definimos el tope hacia abajo de la etiqueta <nav> (para ubicar las letras en el centro en este caso)*/
+	box-sizing: border-box;/*Forzamos a que solo ocupe el ancho del contenedor*/
+}
+.logo p a
+{
+	color: #fff;
+	font-size: 20px; /*Definimos el tamaño de la fuente que queremos utilizar*/
+	text-decoration: none; /*Quitamos los decorados del texto(HTML), en este caso quitamos el subrayado de los hipervinculos*/ 
+	font-weight: bold; /*Transformamos el peso de la tipografia*/ /*Ponemos las letras en negrita*/
+	font-family: maincra;/*Especificamos el tipo de tipografia que queremos utilizar*/
+}
+nav ul li 
+{
+	display: inline; /*Hacemos que despliegue en linea*/
+}
+nav ul li a
+{
+	color: #fff;
+	font-size: 13px; /*Hacemos que el tamaño de la fuente sea de 13px*/
+	text-decoration: none; /*Quitamos los decorados del texto(HTML)*/
+	text-transform: uppercase; /*Transformamos el texto, para que este en mayuscula*/
+	padding-left: 15px; /*Hacemos que las palabras(<p>) tengan un especiado a la izquierda de 15px*/
+	padding-right: 5px; /*Hacemos que las palabras(<p>) tengan un especiado a la derecha de 5px*/
+	font-weight: bold; /*Transformamos el peso de la tipografia*/ /*Ponemos las letras en negrita*/
+	letter-spacing: 3px;/*Hacemos que las letras tengan un espaciado de 3px*/
+	font-family: maincra;/*Usamos la tipografia que tenemos*/
+}
+nav ul li a:hover /*Cuando el mouse pase arriba de textos que tengan este estilos cambiara de color*/
+{
+	color: #444;/*Definimos el color en hexadecimal*/
+}
+@font-face /*Declaramos una tipografia*/
+{
+	font-family: maincra; /*Renombramos la tipografia*/
+	src: url(Tipografias/Minecrafter.Reg.ttf);/*Mandamos a llamar a la tipografia*/
+}

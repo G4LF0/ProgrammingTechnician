@@ -1,0 +1,12 @@
+*****INSTRUCCIONES*****
+Favor de descargar la carpeta
+ completa, ya que en ella se 
+encuentran las hojas de estilos
+ y el script hecho en JavaScript,
+para la hoja de contacto se anexo
+ un formulario PHP, pero solo funciona
+cuando la pagina web esta en un hosting.
+
+Abrir el documento llamado "index.html", ya que es en el que esta enlazado
+todos los demas subarchivos.
+*****Espero le guste*****

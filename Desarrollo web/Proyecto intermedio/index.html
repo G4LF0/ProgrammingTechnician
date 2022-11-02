@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mundo de Ceramica</title>
+</head>
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="cuadro.css"> <!--Llamamos a otra hoja de estilos-->
+<link rel="stylesheet" href="banner.css">
+<link rel="stylesheet" href="formulario.css">
+<script src="https://use.fontawesome.com/502b7294a9.js"></script>
+<script  src="CLikes.js" type="text/javascript"></script>
+<body>
+	<header> <!--cabecera-->
+		<div class="ancho"> <!--Division de cabecera para el logo y la lista ordenada-->
+			<div class="logo"><!--Division de cabecera para el texto del logo-->
+				<p><a href="index.html">Mario Ceramica®</a> </p> <!--Texto en la cabecera que sale del lado derecho--> <!--Nombre de la empresa-->
+			</div>
+			<nav><!--Generacion de listas ordenadas-->
+				<ul> <!--Sintaxis para la creacion de la lista ordenada-->
+					<li><a href="#">Nosotros</a></li> <!--Opciones-->
+					<li><a href="#Catalogo">Catalogo</a> </li><!--Les agregamos enlaces con la etiqueta <a>-->
+					<li><a href="#Beneficios">Beneficios </a></li><!--El enlace los llevara al index(#)-->
+					<li><a href="#Contacto">Contacto </a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="ancho-letras"><!--Division madre-->
+		<div class="letras-slider"><!--Division para el titulo y el texto-->
+			<img src="Imagenes/Logotipo.jpg" alt="">
+			<h1>Mario Ceramica®</h1><!--Titulo--> <!--Mandamos a llamar las animaciones previamente descargad-->
+			<p>La mejor tienda, excelente surtido, pide la informacion que solicites, nosotros nos pndremos en contacto contigo.</p> <!--Texto--><!--Mandamos a llamar las animaciones previamente hechas-->
+		</div>
+		<br><br><br>
+		<section class="banner-2">
+			<h3>Los clientes son siempre nuestra prioridad.<a href="#Contacto">Pide informacion<i class="fa fa-arrow-right" aria-hidden="true"></i></a></h3>
+		</section>
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<section>
+		<div class="tabla">
+			<center>
+				<table border="1">
+	 				<th colspan="4"><h1><a id="Catalogo"></a>CATALOGO</h1></th>
+					<tr>
+						<td><img src="Imagenes/Conejo.jpg" alt="" onmouseover="this.src='Imagenes/Conejo1.png'" onmouseout="this.src='Imagenes/Conejo.jpg'"></td>
+ 						<td><img src="Imagenes/Ballena.jpg" alt="" onmouseover="this.src='Imagenes/Ballena1.jpg'" onmouseout="this.src='Imagenes/Ballena.jpg'"></td>
+						<td><img src="Imagenes/Jirafa.jpg" alt="" onmouseover="this.src='Imagenes/Jirafa1.jpg'" onmouseout="this.src='Imagenes/Jirafa.jpg'"></td>
+						<td><img src="Imagenes/Perro.jpg" alt="" onmouseover="this.src='Imagenes/Perro1.jpg'" onmouseout="this.src='Imagenes/Perro.jpg'"></td>
+					</tr>
+					<tr>
+						<td><img  id="gusta1" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">250</span></div><h3 id="resultado1"></h3></td>
+						<td><img  id="gusta2" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">400</span></div><h3 id="resultado2"></h3></td>
+						<td><img  id="gusta3" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">150</span></div><h3 id="resultado3"></h3></td>
+						<td><img  id="gusta4" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">350</span></div><h3 id="resultado4"></h3></td>
+					</tr>
+					<tr>
+						<td><img src="Imagenes/Cerdo.jpg" alt="" onmouseover="this.src='Imagenes/Cerdo1.jpg'" onmouseout="this.src='Imagenes/Cerdo.jpg'"></td>
+						<td><img src="Imagenes/Bollena.jpg" alt="" onmouseover="this.src='Imagenes/Bollena1.jpg'" onmouseout="this.src='Imagenes/Bollena.jpg'"></td>
+						<td><img src="Imagenes/Zorro.jpg" alt="" onmouseover="this.src='Imagenes/Zorro1.jpg'" onmouseout="this.src='Imagenes/Zorro.jpg'"></td>
+						<td><img src="Imagenes/Panda.jpg" alt="" onmouseover="this.src='Imagenes/Panda1.jpg'" onmouseout="this.src='Imagenes/Panda.jpg'"></td>
+					</tr>
+					<tr>
+						<td><img  id="gusta5" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">100</span></div><h3 id="resultado5"></h3></td>
+						<td><img  id="gusta6" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">250</span></div><h3 id="resultado6"></h3></td>
+						<td><img  id="gusta7" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">400</span></div><h3 id="resultado7"></h3></td>
+						<td><img  id="gusta8" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">300</span></div><h3 id="resultado8"></h3></td>
+					</tr>
+					<tr>
+						<td><img src="Imagenes/Elefante.jpg" alt="" onmouseover="this.src='Imagenes/Elefante1.jpg'" onmouseout="this.src='Imagenes/Elefante.jpg'"></td>
+						<td><img src="Imagenes/Vaca.jpg" alt="" onmouseover="this.src='Imagenes/Vaca1.jpg'" onmouseout="this.src='Imagenes/Vaca.jpg'"></td>
+						<td><img src="Imagenes/Buho.jpg" alt="" onmouseover="this.src='Imagenes/Buho1.jpg'" onmouseout="this.src='Imagenes/Buho.jpg'"></td>
+						<td><img src="Imagenes/Cebra.jpg" alt="" onmouseover="this.src='Imagenes/Cebra1.jpg'" onmouseout="this.src='Imagenes/Cebra.jpg'"></td>
+					</tr>
+					<tr>
+						<td><img  id="gusta9" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">200</span></div><h3 id="resultado9"></h3></td>
+						<td><img  id="gusta10" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">150</span></div><h3 id="resultado10"></h3></td>
+						<td><img  id="gusta11" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">350</span></div><h3 id="resultado11"></h3></td>
+						<td><img  id="gusta12" class="like" src="Imagenes/Like.png" alt=""><div class="izq"><span class="dolar">$</span><span class="dinero">250</span></div><h3 id="resultado12"></h3></td>
+					</tr>
+				</table>
+			</center>
+		</div>
+	</section>
+	<section class="contenedor-columnas">
+		<div><center><h1>Beneficios de la ceramica</h1></center></div>
+		<br><br>
+			<div class="columnas"><a id="Beneficios"></a>
+				<center><h4>Durabilidad</h4></center>
+				<center><i class="fa fa-american-sign-language-interpreting fa-4x" aria-hidden="true"></i></center><!--Mandamos a llamar el icono desde la clase de la pagina web, y con "fa-4x" lo agrandamos-->
+				<p>Material natural con una larga y muy longeva vida util, completemente seguro, mantenlo como una requilia familiar ya que durara mucho, es sumamente resistente al paso del tiempo...</p>
+			</div>
+			<div class="columnas">
+				<center><h4>Contra agua</h4></center>
+				<center><i class="fa fa-american-sign-language-interpreting fa-4x" aria-hidden="true"></i></center><!--Etiquetas para iconos-->
+				<p>No se oxida, y puede estar el tiempo que sea y que se necesite en contacto con el agua asi como con otro tipo de liquidos, ideal para macetas o floreros....</p>
+			</div>
+			<div class="columnas">
+				<center><h4>No reacciona</h4></center>
+				<center><i class="fa fa-american-sign-language-interpreting fa-4x" aria-hidden="true"></i></center>
+				<p>No reacciona ante otro tipo de quimicos, beneficia tu hogar, manten a tu familia y a tus hijos seguros con este material completamente seguro y longevo...</p>
+			</div>
+		</section>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2271.7965405438695!2d-93.15703550283597!3d16.742256054311003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd9a1b3d9486d%3A0xebcd7b3127adcda3!2sTaller+de+Arte+con+Cer%C3%A1mica!5e0!3m2!1ses-419!2smx!4v1527433831018" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<br><br>
+		<section class="bienvenidos"><a name="bienvenidos"></a>
+			<h2>Contactanos</h2><a id="Contacto"></a>
+			<h3>Nosotros nos pondremos en contacto contigo siempre y cuando llenes corretamente los datos que te solicitamos, asegurate de que tus datos esten correctos y bien especificados.</h3>
+		</section>
+		<section class="dos-columnas">
+			<div class="formulario">
+				<center><h4> Te mandaremos un correo con informacion</h4></center>
+				<form action="enviar.php" method="POST">
+					<input type="text" placeholder="Nombre" name="nombre" class="caja-1">
+					<input type="email" placeholder="E-mail" name="email" class="caja-1">
+					<input type="tel" placeholder="Telefono" name="telefono" class="caja-1">
+					<input type="text" placeholder="Asunto" name="asunto" class="caja-1">
+					<textarea name="mensaje" id="" cols="30" rows="10" class="caja-2" placeholder="Deja tu comentario aqui"></textarea>
+					<button type="submit" class="contratar-a correr">Enviar</button>
+				</form>
+			</div>
+		</section>
+		<section class="dos-columnas">
+			<div class="formulario">
+				<center><h4>Ingresate como uno de nuestros clientes</h4></center>
+				<form action="regsitro.php" method="POST">
+					<input type="text" placeholder="Nombre" name="cliente" class="caja-1" required>
+					<input type="email" placeholder="E-mail" name="correo" class="caja-1" required>
+					<input type="tel" placeholder="Telefono" name="num" class="caja-1" required>
+					<input type="text" placeholder="Asunto" name="asun" class="caja-1" required>
+					<textarea name="comentario" id="" cols="30" rows="10" class="caja-2" placeholder="Deja tu mensaje de cliente" required></textarea>
+					<button type="submit" class="contratar-a correr">Registrarte</button>
+				</form>
+			</div>
+		</section>
+		<section>
+			<div>
+				<center>
+					<img src="Imagenes/MLogotipo.PNG" alt="Desarrollador">
+				</center>
+			</div>
+		</section>
+</body>
+</html>

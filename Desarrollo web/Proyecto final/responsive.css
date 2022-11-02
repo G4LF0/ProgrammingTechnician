@@ -1,0 +1,34 @@
+@media only screen and (max-width: 480px)
+{
+	.red
+	{
+		display: none;
+	}
+	.columnas
+	{
+		width: 100%;
+	}
+	.tablax4
+	{
+		width: 100%;
+	}
+	.tablax2
+	{
+		width: 100;
+	}
+}
+@media only screen and(min-width: 481px) and (max-width: 768px)
+{
+	.red
+	{
+		display: none;
+	}
+	.columnas
+	{
+		width: 100%;
+	}
+		.tablax4
+	{
+		width: 100%;
+	}
+}

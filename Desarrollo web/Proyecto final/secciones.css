@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Dhurjati');
+*
+{
+	box-sizing: border-box;
+}
+
+h1,h2,h4,h5,h6
+{
+	text-transform: uppercase;
+	color: 	#444;
+	font-family: maincra;
+	letter-spacing: 1px;
+}
+h2
+{
+	font-size: 50px;
+}
+h3
+{
+	font-family: Dhurjati;
+	font-size: 20px;
+	line-height: 1.5; /*Tamaño de las lineas*/
+	padding-top: 20px;
+	font-weight: normal; /*Que no se modifique la fuente, que este normal(el peso)*/
+	color: #777;
+}
+.wap
+{
+	width: 90%;
+	margin: auto;
+}
+.bienvenidos
+{
+	margin-top: 20px;
+	text-align: center;
+}
+.contenedor-columnas
+{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px; /*Division hacia abajo para que no se pegue con la otra seccion*/
+}
+.columnas
+{
+	width: 33.33%;
+	float: left;/*Que la flotacion de todos sea hacia la izquierda, y como se topa con otro, queda bloqueado*/
+	padding: 20px 20px; /*Dejamos margenes entre seccion y seccion*/ /*Arriba/Abajo__Derecha/Izquierda*/
+	box-sizing: border-box;
+	margin: auto;
+	font-family: maincra;
+	text-transform: uppercase;
+}
+.columnas img
+{
+	width: 100%;/*Hacemos que la imagen salga al 100% y no recortada*/
+}
+h4 
+{
+	margin-top: 15px;
+	font-size: 25px;
+	text-align: center;
+}
+h5
+{
+	line-height: 1.5;
+	font-weight: normal;
+	padding: 10px 0px;
+	font-size: 12px;
+	text-align: center;
+
+}
+.columnas p
+{
+	font-family: Dhurjati;
+	font-size: 20px;
+	color: #888;
+}
+.banner-1
+{
+	width:100%;
+	background:#2F4F4F ;
+	clear: both;/*Arreglamos al usar flotacion a la izquierda y que no nos quede bien centrado*/
+	padding-top: 30px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+	transition: 0.5s;/*Regresa a la normalidad*/
+}
+.banner-1:hover
+{
+	background: #0B0719;
+	transition: 0.5s; /*El tiempo en el que cambia de color al pasarel mouse por encima*/ /*Se va al estilo*/
+}
+.banner-1 h3 a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 10px;
+	color: #fff;
+	font-weight: bold;
+	border-bottom: 2px solid #fff; /*Para poner el borde de abajo, seleccionamos el tamaño, ponemos la linea y el color de la linea*/
+}
+.banner-1 h3
+{
+	color: #fff;
+	font-family: maincra;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding:10px 0px;/*Para dimensionar los topes de la etiqueta*/
+	/*     Largo↓ Ancho→*/
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.columnas i
+{
+	float: left;
+	padding-right: 20px;
+	color: #444;
+}
+.columnas h4
+{
+	padding-bottom: 20px;
+}
+.banner-2
+{
+	margin-top: 50px;
+	background: url(Imagenes/diseno.jpg);
+	float: left;
+	width: 100%;
+	height: 350px;
+	background-repeat: no-repeat;/*Para que no se repita*/
+	background-size: cover;/*imagen al 100%del ancho*/
+	background-attachment: fixed; /*Posicion baja para la imagen*/
+	text-align: center;
+}
+.banner-2 h3
+{
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	font-family: maincra;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding:10px 0px;
+	font-size: 30px;
+	letter-spacing: 1px;
+	text-align: center;
+	height: 100%;
+	padding-top: 10%;
+}
+.banner-2 a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 10px;
+	color: #fff;
+	font-weight: bold;
+	border-bottom: 2px solid #fff;
+}

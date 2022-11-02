@@ -1,0 +1,63 @@
+.red
+{
+	position: fixed;
+	top: 200px;
+	z-index: 100;
+	left: 0;
+}
+#Facebook a /*Trabajando con identificadores*/
+{
+	background: #3b5998;
+	padding: 10px 25px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all 0.4s ease; /*'ease' hace que se genere una curva de animacion*/ /*'all' selecciona todas las animaciones */
+}
+#Facebook a:hover
+{
+	background: rgba(0,0,0,0.5);
+	width: 75px;
+}
+#Youtube a
+{
+	background: #bb0000;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all 0.4s ease;
+}
+#Youtube a:hover
+{
+	background: rgba(0,0,0,0.5);
+	width: 75px;
+}
+#Twitter a
+{
+	background: #fff;
+	padding: 10px 20px;
+	color: blue;
+	text-decoration: none;
+	width: 55px;
+	transition: all 0.4s ease;
+}
+#Twitter a:hover
+{
+	background: rgba(0,0,0,0.5);
+	width: 75px;
+}
+#Instagram a
+{
+	background: #ff0080;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all 0.4s ease;
+}
+#Instagram a:hover
+{
+	background: rgba(0,0,0,0.5);
+	width: 75px;
+}

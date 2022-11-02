@@ -1,0 +1,52 @@
+.dos-columnas
+{
+	margin-top: 50px;
+}
+.formulario
+{
+	float: left;
+	width: 50%;
+	margin: auto;
+	color: #999;
+}
+.caja-1
+{
+	width: 250px;
+	height: 40px;
+	margin: 20px;
+	padding: 10px;
+	font-size: 14px;
+}
+.caja-2
+{
+	width: 570px;
+	height: 100px;
+	margin:20px;
+	padding: 10px;
+	font-size: 14px;
+}
+.contratar-a
+{
+	background: #85c34a;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 70px;
+	letter-spacing: 1px;
+	width: 90%;
+}
+.contratar-a:hover
+{
+	background: #777;
+}
+.correr
+{
+	margin:20px;
+	padding: 10px;
+}
+.formulario h4
+{
+	color: #85c34a;
+	font-size: 30px;
+}

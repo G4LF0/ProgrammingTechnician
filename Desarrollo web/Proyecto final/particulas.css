@@ -1,0 +1,36 @@
+#particles-js
+{
+	background: url(Imagenes/Logotipo.png);
+	background-position: center; /*Posicionar la imagen en el centro*/
+	background-attachment: contain; /*Para que se mantenga dentro de las proporciones que le definamos*/
+	background-size: stretch;/*Para que no se repita la imagen(cover), pero preferiremos usar stretch por motivos de diseño*/
+}
+.ancho-letras
+{
+	/*padding-top: 200px;/*Ubicamos 200px abajo*//*Se agrada 200px hasta abajo*/
+	top: 200px;/*Se desplaza la caja 200px hacia abajo*/
+	position: absolute; /*Posicion absoluta, no le hace caso a la ubicacion por defecto*/
+	width: 100%; /*Ponemos el ancho del <div> a un 100%*/
+	text-align: center;/*Alineamos el texto al centro*/
+	z-index: 9; /*Trabajo en capas*/
+}
+.letras-slider
+{
+	width: 80%;/*Ancho del <div> a un 80%*/
+	margin: auto; /*Hacemos el margen automatico(centro)*/
+}
+.letras-slider h1
+{
+	color: #fff;/*Le damos color  las letras*/
+	font-family: maincra;/*Seleccionamos el tipo de fuente que ya teniamos establecido*/
+	font-size: 60px; /*Tamaño de la funente*/
+	letter-spacing: 2px; /*Espacion entre letra y letra*/
+}
+.letras-slider p
+{
+	color: #fff;/*Le damos color  las letras*/
+	font-family: maincra;
+	font-size: 25px;
+	padding-top: 20px;/* Hacemos que se separe de la partede arriba una distancia de 20px*/
+	text-transform: uppercase;
+}
