@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CRM</title>
+</head>
+<body>
+	<section>
+		<div>
+			<center>
+		    <img src="Mis imagenes/yolo.png" alt="yolo">
+	        </center>
+		</div>
+		<div>
+			<center>
+			</center>
+			<center>
+				<a href="index1.php">Regresar al inicio</a>
+				<br>
+				<!--<a href="informativa.php">Informacion</a>-->
+			</center>
+		</div>
+	</section>
+<?PHP
+
+$conexion = @mysqli_connect("localhost","root","");
+mysqli_select_db( $conexion, "juventinos");
+
+if ($conexion)
+{
+	$resultado =mysqli_query( $conexion, "SELECT id, usuario, fecha, mensaje FROM pasantes");
+	echo"<center>";
+	echo"<table border=4>";
+	echo"<tr><th colspan=4>Tabla en html</th></tr>";
+	while ($fila = mysqli_fetch_row($resultado))
+	{
+		echo"<tr>";
+		echo"<td>";
+		echo "<B>ID</B> #" . $fila[0] . "; ";
+		echo"</td>";
+		echo"<td>";
+		echo "<B>Escrito por:</B> " . $fila[1] . "; ";
+		echo"</td>";
+		echo"<td>";
+		echo "<B>Fecha:</B> " . $fila[2] . "; ";
+		echo "<BR>";
+		echo"</td>";
+		echo"<td>";
+		echo $fila[3];
+		echo"</td>";
+		echo "<HR>";
+		echo"</tr>";
+	}
+	echo"</table>";
+	echo"</center>";
+}
+?>
+</body>
+</html>
